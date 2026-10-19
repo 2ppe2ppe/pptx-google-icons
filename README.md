@@ -32,6 +32,16 @@ PowerPoint を再起動し、「挿入」タブの「Google Icons」、または
 
 リボンに「アドイン」の入口が無い環境（会社の設定で隠れている場合）は、`Google Icons 起動用.pptx` を開くとパネルが自動で開く。作り直しは `python3 make_launcher.py`（マニフェストの Version を上げたときも再生成する）。
 
+### 起動時に自動で読み込む（入口が無い環境向け）
+
+会社の設定で、追加したアドインが PowerPoint 終了後に残らない。そのため、マクロ用アドイン `GoogleIcons.ppam` が起動時に起動用ファイルを数秒開いて閉じ、アドインを読み込ませる（閉じてもボタンは残る）。
+
+- 読み込むのは `~/Library/Containers/com.microsoft.Powerpoint/Data/Documents/GoogleIconsLauncher.pptx`（起動用ファイルのコピー。PowerPoint 専用フォルダなのでアクセス確認が出ない）
+- 登録済みの ppam は `~/Desktop/GoogleIcons.ppam`（ツール → PowerPoint アドイン）。移動・削除しない
+- Mac では Auto_Open が動かないため、リボンの onLoad で動かしている。挿入タブの「Icons 読込」は手動で読み込み直すボタン
+- 作り直し: PowerPoint で `ppam/GoogleIconsLoader.bas` を標準モジュールに貼って .pptm で保存 → PowerPoint を終了 → `python3 ppam/make_ppam.py ~/Desktop/GoogleIcons.pptm ~/Desktop/GoogleIcons.ppam`（Mac の PowerPoint は .ppam で保存できないため変換する）
+- 起動用ファイルを作り直したら、上のコピーも置き換える
+
 ## 使い方
 
 - 検索は日本語・英語どちらでも（矢印、家、グラフ、chart など）。複数語は AND。「上矢印」のような続け書きも分けて探す
