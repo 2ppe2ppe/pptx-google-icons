@@ -30,6 +30,8 @@ python3 make_manifest.py https://<ユーザー名>.github.io/pptx-google-icons -
 
 PowerPoint を再起動し、「挿入」タブの「Google Icons」、または「ホーム」→「アドイン」から開く。
 
+リボンに「アドイン」の入口が無い環境（会社の設定で隠れている場合）は、`Google Icons 起動用.pptx` を開くとパネルが自動で開く。作り直しは `python3 make_launcher.py`（マニフェストの Version を上げたときも再生成する）。
+
 ## 使い方
 
 - 検索は英語（arrow, chart, people など）。複数語は AND
