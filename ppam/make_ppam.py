@@ -4,7 +4,7 @@ Mac の PowerPoint は .ppam で保存できないため、.pptm の中身の種
 あわせてリボン定義（customUI14.xml）を埋め込み、起動時にリボンの onLoad でマクロを動かす。
 ボタンは付けない（本来の「Google Icons」ボタンと紛らわしいため。GoogleIcons_OnButton は未使用）。
 
-使い方: python3 ppam/make_ppam.py ~/Desktop/GoogleIcons.pptm ~/Desktop/GoogleIcons.ppam
+使い方: python3 ppam/make_ppam.py ~/Desktop/App/GoogleIcons.pptm ~/Desktop/App/GoogleIcons.ppam
 """
 import sys
 import zipfile

@@ -37,9 +37,9 @@ PowerPoint を再起動し、「挿入」タブの「Google Icons」、または
 会社の設定で、追加したアドインが PowerPoint 終了後に残らない。そのため、マクロ用アドイン `GoogleIcons.ppam` が起動時に起動用ファイルを数秒開いて閉じ、アドインを読み込ませる（閉じてもボタンは残る）。
 
 - 読み込むのは `~/Library/Containers/com.microsoft.Powerpoint/Data/Documents/GoogleIconsLauncher.pptx`（起動用ファイルのコピー。PowerPoint 専用フォルダなのでアクセス確認が出ない）
-- 登録済みの ppam は `~/Desktop/GoogleIcons.ppam`（ツール → PowerPoint アドイン）。移動・削除しない
+- 登録済みの ppam は `~/Desktop/App/GoogleIcons.ppam`（ツール → PowerPoint アドイン）。移動・削除しない
 - Mac では Auto_Open が動かないため、リボンの onLoad で動かしている（ボタンは付けていない）
-- 作り直し: PowerPoint で `ppam/GoogleIconsLoader.bas` を標準モジュールに貼って .pptm で保存 → PowerPoint を終了 → `python3 ppam/make_ppam.py ~/Desktop/GoogleIcons.pptm ~/Desktop/GoogleIcons.ppam`（Mac の PowerPoint は .ppam で保存できないため変換する）
+- 作り直し: PowerPoint で `ppam/GoogleIconsLoader.bas` を標準モジュールに貼って .pptm で保存 → PowerPoint を終了 → `python3 ppam/make_ppam.py ~/Desktop/App/GoogleIcons.pptm ~/Desktop/App/GoogleIcons.ppam`（Mac の PowerPoint は .ppam で保存できないため変換する）
 - 起動用ファイルを作り直したら、上のコピーも置き換える
 
 ## 使い方
