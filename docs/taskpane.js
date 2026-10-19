@@ -205,7 +205,8 @@
       }
 
       const opts = {};
-      if ($("replace").checked) {
+      const replacing = $("replace").checked;
+      if (replacing) {
         if (!state.canReplace) throw new Error("この PowerPoint では差し替えに未対応です");
         const g = await takeSelectedGeometry();
         if (!g) throw new Error("差し替える図形を1つだけ選んでください");
@@ -218,7 +219,9 @@
       await setSelectedData(buildSvg(raw, color, sizePt), opts);
       await nameInserted(name);
       remember(name);
-      toast(`${name} を挿入しました`);
+      // 差し替えは1回ごと。続けて押したときに別の図形を消さないよう、終わったら外す
+      if (replacing) $("replace").checked = false;
+      toast(replacing ? `${name} に差し替えました` : `${name} を挿入しました`);
     } catch (e) {
       toast("挿入できませんでした：" + (e && e.message ? e.message : e));
     }
