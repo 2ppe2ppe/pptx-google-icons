@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Google Icons</title>
+<script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+<link rel="stylesheet" href="taskpane.css">
+</head>
+<body>
+<header>
+  <input id="q" type="search" placeholder="アイコンを検索（英語: arrow, home, chart…）" autocomplete="off" spellcheck="false">
+  <div class="row">
+    <div class="seg" id="style">
+      <button data-v="outlined" class="on">Outlined</button>
+      <button data-v="rounded">Rounded</button>
+      <button data-v="sharp">Sharp</button>
+    </div>
+  </div>
+  <div class="row">
+    <label class="chk"><input type="checkbox" id="fill"> 塗り</label>
+    <label>太さ
+      <select id="wght">
+        <option>100</option><option>200</option><option>300</option>
+        <option selected>400</option><option>500</option><option>600</option><option>700</option>
+      </select>
+    </label>
+    <label>サイズ
+      <input id="size" type="number" min="0.2" max="20" step="0.1" value="1.5"> cm
+    </label>
+  </div>
+  <div class="row">
+    <input id="color" type="color" value="#1f1f1f" title="色">
+    <div id="swatches"></div>
+    <button id="addSwatch" class="ghost" title="今の色を登録">＋登録</button>
+  </div>
+  <div class="row">
+    <select id="cat"><option value="">すべてのカテゴリ</option></select>
+    <label class="chk" title="スライド上で図形を1つ選んでおくと、その位置とサイズで入れ替えます"><input type="checkbox" id="replace"> 選択中と差し替え</label>
+  </div>
+</header>
+
+<section id="recentWrap" hidden>
+  <h2>最近使ったもの</h2>
+  <div id="recent" class="grid"></div>
+</section>
+
+<section>
+  <h2 id="count"></h2>
+  <div id="grid" class="grid"></div>
+  <div id="more"></div>
+</section>
+
+<div id="toast" role="status"></div>
+<script src="taskpane.js"></script>
+</body>
+</html>

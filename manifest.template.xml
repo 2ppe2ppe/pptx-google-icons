@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+           xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides"
+           xsi:type="TaskPaneApp">
+  <Id>3ef1446c-a76a-43c1-a8dd-34918ab27694</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>2BX</ProviderName>
+  <DefaultLocale>ja-JP</DefaultLocale>
+  <DisplayName DefaultValue="Google Icons"/>
+  <Description DefaultValue="Google の Material Symbols を検索して、スライドに SVG で挿入します。"/>
+  <IconUrl DefaultValue="{{BASE_URL}}/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="{{BASE_URL}}/assets/icon-64.png"/>
+  <SupportUrl DefaultValue="{{BASE_URL}}/taskpane.html"/>
+  <AppDomains>
+    <AppDomain>https://fonts.gstatic.com</AppDomain>
+  </AppDomains>
+  <Hosts>
+    <Host Name="Presentation"/>
+  </Hosts>
+  <Requirements>
+    <Sets DefaultMinVersion="1.1">
+      <Set Name="ImageCoercion" MinVersion="1.2"/>
+    </Sets>
+  </Requirements>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="{{BASE_URL}}/taskpane.html"/>
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+
+  <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
+    <Hosts>
+      <Host xsi:type="Presentation">
+        <DesktopFormFactor>
+          <ExtensionPoint xsi:type="PrimaryCommandSurface">
+            <OfficeTab id="TabInsert">
+              <Group id="GIcons.Group">
+                <Label resid="GIcons.Group.Label"/>
+                <Icon>
+                  <bt:Image size="16" resid="Icon.16"/>
+                  <bt:Image size="32" resid="Icon.32"/>
+                  <bt:Image size="80" resid="Icon.80"/>
+                </Icon>
+                <Control xsi:type="Button" id="GIcons.Open">
+                  <Label resid="GIcons.Button.Label"/>
+                  <Supertip>
+                    <Title resid="GIcons.Button.Label"/>
+                    <Description resid="GIcons.Button.Tip"/>
+                  </Supertip>
+                  <Icon>
+                    <bt:Image size="16" resid="Icon.16"/>
+                    <bt:Image size="32" resid="Icon.32"/>
+                    <bt:Image size="80" resid="Icon.80"/>
+                  </Icon>
+                  <Action xsi:type="ShowTaskpane">
+                    <TaskpaneId>GIcons.Pane</TaskpaneId>
+                    <SourceLocation resid="Taskpane.Url"/>
+                  </Action>
+                </Control>
+              </Group>
+            </OfficeTab>
+          </ExtensionPoint>
+        </DesktopFormFactor>
+      </Host>
+    </Hosts>
+    <Resources>
+      <bt:Images>
+        <bt:Image id="Icon.16" DefaultValue="{{BASE_URL}}/assets/icon-16.png"/>
+        <bt:Image id="Icon.32" DefaultValue="{{BASE_URL}}/assets/icon-32.png"/>
+        <bt:Image id="Icon.80" DefaultValue="{{BASE_URL}}/assets/icon-80.png"/>
+      </bt:Images>
+      <bt:Urls>
+        <bt:Url id="Taskpane.Url" DefaultValue="{{BASE_URL}}/taskpane.html"/>
+      </bt:Urls>
+      <bt:ShortStrings>
+        <bt:String id="GIcons.Group.Label" DefaultValue="アイコン"/>
+        <bt:String id="GIcons.Button.Label" DefaultValue="Google Icons"/>
+      </bt:ShortStrings>
+      <bt:LongStrings>
+        <bt:String id="GIcons.Button.Tip" DefaultValue="Material Symbols を検索して、クリックでスライドに挿入します。"/>
+      </bt:LongStrings>
+    </Resources>
+  </VersionOverrides>
+</OfficeApp>
