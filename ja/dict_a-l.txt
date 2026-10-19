@@ -1,0 +1,980 @@
+# 英単語 日本語の訳語（空白区切り）。build_index.py が docs/data/ja.json にまとめる
+abc アルファベット 文字
+above 上 上方
+abstract 抽象
+ac エアコン 空調
+access アクセス
+accessibility アクセシビリティ バリアフリー
+accessible アクセシブル 車椅子 バリアフリー
+account アカウント ユーザー
+accounts アカウント
+action アクション 行動
+actions アクション
+active アクティブ 有効
+activism 活動 社会運動
+activity アクティビティ 活動
+actors 俳優 演劇
+acupuncture 鍼 鍼灸
+acute 急性
+ad 広告
+adaptive 適応
+add 追加 足す プラス 新規
+added 追加済み
+adjust 調整
+admin 管理者 管理
+admission 入場 入院
+ads 広告
+adult 大人 成人
+agenda アジェンダ 議題 予定
+agent エージェント 代理
+agriculture 農業 農作物
+aid 救急 支援 補聴器
+air 空気 航空 エア
+airline 航空会社 飛行機
+airlines 航空会社 飛行機
+airplane 飛行機 航空機
+airplanemode 機内モード
+airport 空港
+airports 空港
+alarm アラーム 目覚まし
+album アルバム
+alcohol アルコール 酒
+alert アラート 警告 注意 通知
+align 整列 揃える 配置
+all すべて 全部
+allergies アレルギー
+allergy アレルギー
+alpha アルファ
+alternate 代替 切り替え
+altitude 高度 標高
+ambulance 救急車
+amend 修正
+analog アナログ
+analytics 分析 アナリティクス 解析
+anchor アンカー 錨
+and アンド
+android アンドロイド スマホ
+angle 角度
+angled 斜め
+animated アニメーション
+animation アニメーション 動き
+antenna アンテナ
+antigravity 反重力
+apart 離す 分割
+apartment マンション アパート 集合住宅
+api API 開発
+app アプリ
+apparel 衣料 アパレル 服
+applications アプリ
+approach アプローチ 接近
+approval 承認 許可
+approve 承認 許可
+apps アプリ 一覧
+apron エプロン
+ar 拡張現実 AR
+architecture 建築 アーキテクチャ
+archive アーカイブ 保管 書庫
+area エリア 領域 面積
+around 周り 周囲
+array 配列
+arrow 矢印 やじるし
+arrows 矢印
+art アート 芸術 美術
+article 記事 文書
+artist アーティスト 芸術家 画家
+arts 芸術 アート
+asia アジア
+aspect 比率 アスペクト
+asset 資産
+assignment 課題 割り当て タスク
+assist アシスト 支援
+assistant アシスタント 補助 AI
+assured 保証
+asterisk アスタリスク 星印
+atm ATM 現金 お金
+attach 添付 クリップ
+attachment 添付 添付ファイル クリップ
+attractions アトラクション 観光 遊園地
+attributes 属性
+attribution 帰属 クレジット
+audio 音声 オーディオ 音
+auto 自動 オート
+automation 自動化 オートメーション
+autopause 自動一時停止
+autoplay 自動再生
+autorenew 自動更新 更新 リロード
+autostop 自動停止
+available 利用可能 空き
+avatar アバター 人物 顔
+award 賞 表彰 受賞
+aware 認識
+awareness 意識 啓発
+away 離席 不在
+awesome すごい
+axis 軸
+baby 赤ちゃん 乳児 ベビー
+back 戻る 前へ 後ろ 背中
+background 背景
+backlight バックライト
+backpack リュック バックパック
+backspace 削除 バックスペース
+backup バックアップ
+backward 後退 戻る
+bad 悪い
+badge バッジ 社員証 名札
+badminton バドミントン
+bag 鞄 バッグ 袋
+bags 鞄 バッグ
+bakery パン屋 ベーカリー パン
+balance バランス 残高 天秤
+balcony バルコニー ベランダ
+ballot 投票 投票用紙
+band バンド
+bank 銀行
+banner バナー
+bar バー 棒 棒グラフ 酒場
+barcode バーコード
+barefoot 裸足
+barrel 樽
+bars 棒 棒グラフ
+baseball 野球
+basket かご バスケット
+basketball バスケットボール
+bath 風呂 入浴
+bathroom 浴室 トイレ 洗面所
+bathtub 浴槽 風呂
+battery バッテリー 電池 充電
+beach 海 ビーチ 海岸
+bean 豆
+beauty 美容 ビューティー
+bed ベッド 寝室 宿泊
+bedroom 寝室
+beds ベッド
+bedtime 就寝 睡眠
+beer ビール
+beginning 始め 開始
+below 下
+belt ベルト
+bento 弁当
+between 間
+beverage 飲料 飲み物
+bid 入札
+bike 自転車 バイク
+biotech バイオ 生命工学
+bishop ビショップ チェス
+bitcoin ビットコイン 暗号資産
+blank 空白
+blanket 毛布
+blender ミキサー
+blind 目隠し 視覚障害
+blinds ブラインド
+block ブロック 禁止 積み木
+blocks ブロック
+blood 血液 血
+bloodtype 血液型
+bluetooth ブルートゥース 無線
+blur ぼかし
+board ボード 板 掲示板
+boat ボート 船
+body 体 身体
+bold 太字
+bolt 稲妻 雷 ボルト
+bomb 爆弾
+bones 骨
+book 本 書籍 予約
+bookmark ブックマーク しおり
+bookmarks ブックマーク しおり
+books 本 書籍
+boost ブースト 強化
+border 枠 罫線 境界
+bottle ボトル 瓶
+bottom 下 底
+bowl 椀 ボウル 器
+box 箱 ボックス 段ボール
+boy 男の子 少年
+brand ブランド
+branding ブランディング
+break 休憩 区切り
+breakfast 朝食
+breaking 速報
+breastfeeding 授乳
+brick レンガ
+briefcase 鞄 ビジネス 仕事 ブリーフケース
+brightness 明るさ 輝度
+bring 持ってくる
+broadcast 放送 配信
+broken 壊れた 故障
+browse 閲覧
+browser ブラウザ
+brunch ブランチ 食事
+brush ブラシ 筆
+bubble 吹き出し 泡
+bubbles 泡
+bucket バケツ
+buddhist 仏教 寺
+bug バグ 虫
+build 作る 構築 工具
+bullet 箇条書き 点
+bulleted 箇条書き
+burst バースト 連写
+bus バス
+business ビジネス 仕事 会社
+busy 忙しい 取り込み中
+button ボタン
+buttons ボタン
+cabin 小屋
+cable ケーブル
+cadence リズム
+cafe カフェ 喫茶 コーヒー
+cage 檻
+cake ケーキ 誕生日
+calculate 計算 電卓
+calendar カレンダー 予定 日付
+calibration 校正 調整
+call 電話 通話
+calling 通話中
+calls 通話
+calm 穏やか 落ち着き
+cam カメラ
+camera カメラ 写真 撮影
+campaign キャンペーン
+camping キャンプ テント
+cancel キャンセル 取り消し バツ
+candle ろうそく キャンドル
+candlestick ローソク足 株価
+cannabis 大麻
+capacity 容量
+capslock 大文字
+caption キャプション 字幕
+captive 囲い込み
+capture キャプチャ 撮影
+car 車 自動車 クルマ
+carbon 炭素
+card カード
+cardio 有酸素 心臓
+cardiology 循環器 心臓
+cards カード
+care ケア 介護 世話
+carousel カルーセル
+carpenter 大工
+carry 運ぶ
+cart カート 買い物 ショッピング
+case ケース 事例
+cases ケース
+casino カジノ
+cast キャスト 画面共有
+castle 城
+category カテゴリ 分類
+celebrate お祝い 祝賀
+celebration お祝い 祝賀 パーティー
+cell セル 携帯
+cellular 携帯 モバイル通信
+center 中央 中心 センター
+chair 椅子 チェア
+chalet 山小屋
+change 変更 変化
+changes 変更
+changing 変更中
+channel チャンネル
+channels チャンネル
+character 文字 キャラクター
+charge 充電 料金
+charger 充電器
+charging 充電中
+chart グラフ チャート 図表
+chat チャット 会話 吹き出し メッセージ
+check チェック 確認 完了 済み
+checkbook 小切手
+checked チェック済み
+checklist チェックリスト 確認
+checkout 会計 レジ
+checkroom クローク ハンガー
+cheer 応援
+chef シェフ 料理人
+chess チェス
+chevron 山括弧
+child 子供 子ども
+chime チャイム
+chinese 中国語
+chip チップ 半導体
+chips ポテトチップス
+choice 選択
+chop 切る
+chronic 慢性
+church 教会
+cinematic 映画的
+circle 円 丸 サークル
+circles 円 丸
+circular 循環 円形
+city 都市 街 ビル
+clarify 明確化
+class 授業 クラス
+clean 掃除 清潔
+cleaning 掃除 清掃
+clear クリア 消去 晴れ
+cleats スパイク
+click クリック
+climate 気候
+clinic 診療所 クリニック 病院
+clinical 臨床
+clip クリップ 添付
+clock 時計 時間 時刻
+close 閉じる バツ
+closed 閉店 閉
+cloud クラウド 雲
+cloudy 曇り
+co2 二酸化炭素 CO2
+code コード プログラム 開発
+coffee コーヒー カフェ
+cognition 認知
+cold 寒い 冷たい
+collage コラージュ
+collapse 折りたたむ
+collections コレクション
+color 色 カラー
+colorize 色付け
+colors 色 カラー
+column 列 カラム
+columns 列 段組み
+combine 結合
+comedy 喜劇 お笑い
+comfort 快適
+comic 漫画 コミック
+command コマンド
+comment コメント 吹き出し
+comments コメント
+commit コミット
+communication コミュニケーション 対話 交流
+communities コミュニティ 地域
+commute 通勤
+compact 小型
+compare 比較
+compass コンパス 方位
+component 部品 コンポーネント
+compost 堆肥
+compress 圧縮
+computer パソコン コンピュータ PC
+concierge コンシェルジュ 受付
+conditions 条件
+confirmation 確認
+connect 接続 つなぐ
+connected 接続済み
+connecting 接続中
+connectivity 接続
+construction 工事 建設
+contact 連絡先 問い合わせ
+contactless 非接触
+contacts 連絡先 アドレス帳
+content コンテンツ 内容
+contract 契約 契約書
+contrast コントラスト
+control 制御 操作 コントロール
+controller コントローラー ゲーム
+convenience コンビニ 便利
+conversation 会話 対話
+conversion 変換 コンバージョン
+convert 変換
+conveyor コンベア
+cookie クッキー
+cooking 料理 調理
+cooktop コンロ
+cool 涼しい 冷房
+copy コピー 複製
+copyright 著作権
+corner 角 隅
+coronavirus コロナ ウイルス
+corporate 企業 法人 会社
+cottage 小屋 別荘
+countdown カウントダウン
+counter カウンター 計数
+countertops 調理台
+course コース 講座
+coverage 範囲
+cozy 心地よい
+crash 衝突 クラッシュ
+create 作成 新規
+credit クレジット 信用
+crib ベビーベッド
+cricket クリケット
+crisis 危機
+critical 重大 重要
+crop 切り抜き トリミング
+cross 十字 交差
+crossword クロスワード パズル
+crowdsource クラウドソーシング
+crown 王冠 王
+cruelty 残酷
+css CSS
+csv CSV 表
+cup カップ コップ
+currency 通貨 お金 為替
+curry カレー
+cursor カーソル
+curtains カーテン
+curve 曲線 カーブ
+custom カスタム
+customize カスタマイズ
+cut 切り取り はさみ
+cycle 循環 サイクル 自転車
+cyclone 台風 サイクロン
+damage 損傷
+dangerous 危険
+dango 団子
+dark 暗い ダーク
+dash ダッシュ
+dashboard ダッシュボード
+dashed 破線
+data データ
+database データベース
+dataset データセット
+date 日付
+day 日 昼
+deceased 故人
+decimal 小数
+deck デッキ
+decrease 減少 減らす
+default 既定
+defrost 解凍 霜取り
+degrees 角度 度
+dehaze かすみ除去
+delegation 委任
+delete 削除 ゴミ箱
+delivery 配達 配送 デリバリー
+demography 人口統計
+density 密度
+dentistry 歯科 歯
+department 部署 部門 百貨店
+departure 出発
+deployed 配備
+description 説明 文書
+deselect 選択解除
+design デザイン 設計
+desk 机 デスク
+deskphone 固定電話
+desktop デスクトップ パソコン
+destruction 破壊
+details 詳細
+detect 検出
+detection 検出
+detector 検知器 センサー
+dev 開発
+developer 開発者
+device デバイス 端末 機器
+devices デバイス 端末
+dew 露
+diagnosis 診断
+diagonal 斜め 対角
+dialer ダイヤル 電話
+dialogs ダイアログ
+dialpad ダイヤル テンキー
+diamond ダイヤ 宝石
+dictionary 辞書
+difference 差 違い
+digital デジタル
+dine 食事
+dining 食事 ダイニング レストラン
+dinner 夕食
+direction 方向
+directions 道案内 経路
+directory ディレクトリ 名簿
+dirty 汚れ
+disabled 無効 障害
+disc ディスク
+disconnect 切断
+disconnected 切断
+discount 割引 セール
+discover 発見 探す
+disease 病気 疾患
+dishwasher 食洗機
+disk ディスク
+display 画面 表示 ディスプレイ
+displays 画面
+dissatisfied 不満
+dissolve 溶解
+distance 距離
+distribute 配分 分配
+disturb 邪魔
+diversity 多様性 ダイバーシティ
+divider 区切り 仕切り
+diving 潜水 ダイビング
+dns DNS
+do 実行
+dock ドック
+docked ドック
+docs 文書 ドキュメント
+document 文書 書類 ドキュメント
+dog 犬 ペット
+domain ドメイン
+domino ドミノ
+done 完了 済み チェック
+donut ドーナツ
+door ドア 扉
+doorbell 呼び鈴 インターホン
+dot 点 ドット
+dots 点 ドット
+double 二重
+down 下 下向き
+downhill 下り坂 スキー
+download ダウンロード
+downloading ダウンロード中
+downward 下向き
+draft 下書き 草稿
+drafts 下書き
+drag ドラッグ
+drama ドラマ 演劇
+draw 描く 描画
+drawer 引き出し
+dresser タンス
+drill ドリル
+drink 飲み物 ドリンク
+drinks 飲み物 ドリンク
+drive ドライブ 運転
+driving 運転
+drone ドローン
+drop しずく 滴
+dropdown プルダウン
+dropper スポイト
+drops しずく
+dry 乾燥
+dual デュアル 二つ
+duo デュオ 二人
+duplicate 複製
+dynamic 動的
+ear 耳
+earbud イヤホン
+earbuds イヤホン
+early 早い 早期
+earthquake 地震
+east 東
+eco エコ 環境
+edit 編集 鉛筆 修正
+editor エディタ 編集
+edu 教育
+education 教育 学校 学習
+egg 卵
+eject 取り出し
+elderly 高齢者 老人 シニア
+electric 電気 電動
+electrical 電気
+elevation 標高 高さ
+elevator エレベーター
+email メール 電子メール
+emergency 緊急 非常
+emoji 絵文字 顔
+emoticon 顔文字 絵文字
+empty 空
+enable 有効
+end 終了 終わり
+energy エネルギー
+engineering 工学 エンジニアリング
+english 英語
+enhanced 強化
+enterexit 出入り
+enterprise 企業
+environment 環境
+equal 等号 イコール
+equalizer イコライザー
+eraser 消しゴム
+error エラー 警告
+errors エラー
+escalator エスカレーター
+esports eスポーツ ゲーム
+estate 不動産
+ethernet 有線LAN
+euro ユーロ 通貨
+ev 電気自動車 EV
+event イベント 予定
+exchange 交換 両替
+excited 興奮
+exclamation 感嘆符 びっくり 注意
+exercise 運動 エクササイズ
+exit 出口 退出 終了
+expand 展開 拡大
+expansion 拡張
+experiment 実験
+explicit 露骨
+exploration 探索 探検
+explore 探索 探検
+explosion 爆発
+export エクスポート 書き出し
+exposure 露出
+expression 表現
+extension 拡張
+external 外部
+extinguisher 消火器
+extra 追加
+eye 目 視覚
+eyeglasses 眼鏡 メガネ
+face 顔
+fact 事実 ファクト
+factory 工場 製造
+fade フェード
+falling 落下
+familiar 慣れた
+family 家族 ファミリー
+fan 扇風機 ファン
+fare 運賃
+fast 速い 高速
+fastfood ファストフード ハンバーガー
+fat 脂肪
+faucet 蛇口
+favorite お気に入り ハート
+fax ファックス
+feature 機能 特徴
+featured 注目
+feed フィード
+feedback フィードバック 意見
+female 女性
+fence 柵 フェンス
+festival 祭り フェスティバル
+fiber 繊維
+fields 項目
+file ファイル 書類
+files ファイル
+fill 塗りつぶし
+filter フィルター 絞り込み
+finance 金融 財務 ファイナンス
+find 検索 探す
+fingerprint 指紋 認証
+fire 火 炎 火事
+fireplace 暖炉
+first 最初 先頭 一番
+fit フィット 合わせる
+fitness フィットネス 運動 ジム
+flag 旗 フラグ 国旗
+flaky 不安定
+flare フレア
+flash フラッシュ
+flashlight 懐中電灯
+flat 平ら
+flatware 食器 ナイフ フォーク
+flex 柔軟
+flight 飛行機 フライト
+flights 飛行機 フライト
+flip 反転
+float 浮かぶ
+flood 洪水
+floodlight 投光器
+floor 床 フロア 階
+florist 花屋
+flowchart フローチャート 図
+flowsheet 流れ図
+fluid 流体
+fluorescent 蛍光灯
+flutter Flutter
+focus フォーカス 集中 焦点
+foggy 霧
+fold 折りたたみ
+folded 折りたたみ
+folder フォルダ
+follow フォロー
+font フォント 文字
+food 食べ物 食事 料理
+foot 足
+football サッカー アメフト
+footer フッター
+footprint 足跡
+for ため
+forest 森 森林
+forever 永遠
+fork フォーク
+forklift フォークリフト 物流
+form フォーム 入力
+format 書式 フォーマット
+forms フォーム
+fort 砦
+forum フォーラム 掲示板 会話
+forward 進む 次へ 転送
+forwarded 転送済み
+found 見つかった
+foundation 基礎 財団
+fountain 噴水
+fragrance 香り
+frame 枠 フレーム
+frames 枠
+franc フラン
+free 無料 自由
+french フランス語
+freshener 芳香剤
+friendly 優しい
+from から
+front 前 正面
+frustrated 不満 イライラ
+full 全体 満
+fullscreen 全画面
+function 関数 機能
+functions 関数
+funicular ケーブルカー
+gain 増加
+gallery ギャラリー 写真
+game ゲーム
+gamepad ゲーム コントローラー
+games ゲーム
+garage ガレージ 車庫
+garden 庭 庭園
+gas ガス ガソリン
+gastroenterology 消化器
+gate 門 ゲート
+gavel 木槌 裁判 法律
+gear 歯車 設定
+general 一般
+genetics 遺伝
+genres ジャンル
+gesture ジェスチャー
+gif GIF
+gifts 贈り物 ギフト プレゼント
+girl 女の子 少女
+gite 宿
+glass ガラス グラス
+globe 地球 世界 グローバル
+glucose 血糖
+glyphs 記号
+go 進む 行く
+goldenratio 黄金比
+golf ゴルフ
+gondola ゴンドラ
+good 良い
+google Google
+gpp セキュリティ 盾
+gradient グラデーション
+grading 採点 成績
+grain 穀物
+graph グラフ
+graphic グラフィック 図
+grass 草 芝生
+gravity 重力
+grid グリッド 格子 方眼
+grill グリル 焼き
+grocery 食料品 スーパー 買い物
+group グループ 集団 チーム 人々
+grouped グループ化
+groups グループ 人々
+guardian 保護者
+guide ガイド 案内
+guides ガイド
+gymnastics 体操
+gynecology 婦人科
+hail 雹
+half 半分
+hallway 廊下
+hanami 花見 桜
+hand 手
+handball ハンドボール
+handheld 携帯
+handle ハンドル 取っ手
+hands 手
+handshake 握手 合意 協業 パートナー
+handyman 修理 工具
+hangout 集まり
+hard 難しい 硬い
+hardware ハードウェア
+hat 帽子
+hd 高画質
+hdmi HDMI
+hdr HDR
+head 頭
+header ヘッダー 見出し
+headline 見出し
+headphones ヘッドホン
+headset ヘッドセット
+healing 癒し 回復
+health 健康 医療 ヘルスケア
+hearing 聴覚 補聴
+heart ハート 心臓 好き
+heat 熱 暖房
+heater ヒーター
+heavy 重い
+height 高さ 身長
+helicopter ヘリコプター
+hello こんにちは
+help ヘルプ はてな 質問
+hematology 血液内科
+hexagon 六角形
+hide 非表示 隠す
+high 高い
+highlight ハイライト 強調
+highlighter 蛍光ペン マーカー
+hiking ハイキング 登山
+hindu ヒンドゥー
+history 履歴 歴史
+hive 巣
+hockey ホッケー
+holiday 休日 祝日
+home 家 ホーム 自宅 住宅
+hood フード
+horiz 横
+horizontal 水平 横
+hospital 病院 医療
+host ホスト
+hot 熱い 暑い
+hotel ホテル 宿泊
+hotels ホテル
+hourglass 砂時計 待機 時間
+house 家 住宅 一戸建て
+houseboat ハウスボート
+household 家庭 世帯
+houses 家 住宅
+how 方法
+hr 人事
+html HTML
+hub ハブ 拠点
+humidity 湿度
+hvac 空調
+hydrant 消火栓
+ice 氷
+icecream アイスクリーム
+id ID 身分証 社員証
+identity 身元 アイデンティティ
+idle 待機
+image 画像 写真 イメージ
+images 画像
+import 取り込み インポート
+important 重要
+improvement 改善
+in 内
+inactive 非アクティブ
+inbox 受信箱 受信トレイ
+incandescent 白熱電球
+inclusive インクルーシブ
+incomplete 未完了
+increase 増加 増やす
+indent インデント 字下げ
+indicator 指標 インジケーター
+indoor 屋内
+info 情報 インフォメーション
+information 情報
+infrared 赤外線
+injuries 怪我
+injury 怪我 けが
+ink インク
+inline インライン
+inner 内側
+inpatient 入院
+input 入力
+insert 挿入
+insights 洞察 インサイト 気づき
+inspect 検査 点検
+install インストール
+installation 設置
+instant 即時
+instructions 手順 説明
+integration 統合 連携
+intel 情報
+intelligence 知能 インテリジェンス
+interactive 対話
+interests 興味 関心
+international 国際
+internet インターネット
+interpreter 通訳
+into 中へ
+inventory 在庫 棚卸し
+invert 反転
+iot IoT
+iridescent 虹色
+iron アイロン
+italic 斜体
+item 項目 アイテム
+items 項目
+jam 渋滞
+japanese 日本語
+javascript JavaScript
+jewelry 宝石 アクセサリー
+join 参加 結合
+joystick ジョイスティック
+json JSON
+jump ジャンプ
+justify 両端揃え
+kanban かんばん
+kanji 漢字
+kayaking カヤック
+kebab ケバブ
+keep 保持 メモ
+kettle やかん ケトル
+key 鍵 キー
+keyboard キーボード
+keys 鍵
+kid 子供 子ども
+king 王 キング
+kiosk キオスク 売店
+kit キット
+kitchen キッチン 台所
+kitesurfing カイトサーフィン
+knight ナイト チェス
+korean 韓国語
+lab 研究室 実験
+label ラベル 名札 タグ
+labs 研究室 実験
+ladder はしご
+lamp ランプ 照明
+lan LAN ネットワーク
+land 土地 着陸
+landscape 風景 横向き 山
+landslide 土砂崩れ
+lane 車線
+language 言語 地球
+laps 周回
+laptop ノートパソコン PC
+large 大きい
+laser レーザー
+lasso 投げ縄 選択
+last 最後
+late 遅い
+latin ラテン
+launch 起動 発射 ロケット
+laundry 洗濯
+layers レイヤー 階層
+layout レイアウト 配置
+leaderboard ランキング
+leaf 葉 植物 エコ
+leak 漏れ
+left 左
+legend 凡例
+legroom 足元
+length 長さ
+lens レンズ
+less 少ない
+lesson 授業 レッスン
+letter 手紙 文字
+level レベル 水準
+library 図書館 ライブラリ
+license 免許 ライセンス
+lift リフト
+light 光 明かり 照明 ライト
+lightbulb 電球 アイデア ひらめき
+lightning 雷 稲妻
+lightstrip 照明
+limited 制限
+limits 制限
+line 線 ライン
+linear 直線
+link リンク
+linked リンク済み
+lips 唇
+liquid 液体
+liquor 酒
+lira リラ
+list リスト 一覧
+listed 掲載
+lists リスト
+live ライブ 生中継
+living 居間 リビング
+load 読み込み
+loader 読み込み
+local 地域 ローカル
+location 場所 位置 地図 ピン
+lock 鍵 ロック 施錠
+locked ロック 施錠
+log ログ 記録
+login ログイン
+logo ロゴ
+logout ログアウト
+long 長い
+loss 損失
+loud 大音量
+loupe ルーペ 虫眼鏡
+low 低い
+lowercase 小文字
+loyalty ロイヤルティ
+luggage 荷物 スーツケース
+lunch 昼食 ランチ
+lyrics 歌詞

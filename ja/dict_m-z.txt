@@ -1,0 +1,994 @@
+# 英単語 日本語の訳語（空白区切り）。build_index.py が docs/data/ja.json にまとめる
+mac Mac パソコン
+macro マクロ 接写
+magnet 磁石
+magnification 拡大
+magnify 拡大 虫眼鏡
+mail メール 手紙 封筒
+mailbox 郵便受け ポスト
+maker メーカー
+male 男性
+mall ショッピングモール 商業施設
+man 男性 男
+manage 管理
+managed 管理
+management 管理 マネジメント 経営
+manager 管理者 マネージャー
+manga 漫画
+manual 手動 マニュアル
+manufacturing 製造 工場
+map 地図 マップ
+maps 地図
+margin 余白 マージン
+mark 印 マーク
+markdown Markdown
+marker マーカー ペン
+markunread 未読
+martial 武道 格闘技
+mask マスク
+masked マスク
+masks マスク
+massage マッサージ
+match 一致
+max 最大
+maximize 最大化
+me 自分
+meal 食事
+meals 食事
+measuring 測定 計量
+media メディア
+medical 医療 医学 病院
+medication 薬 投薬
+medium 中
+meds 薬
+meeting 会議 ミーティング 打ち合わせ
+membership 会員
+memory メモリ 記憶
+menstrual 月経
+menu メニュー 三本線
+merge 統合 マージ 合流
+messages メッセージ チャット
+metabolism 代謝
+meter メーター 計器
+metrics 指標 メトリクス
+metro 地下鉄 電車
+mic マイク 音声
+microbiology 微生物
+microwave 電子レンジ
+military 軍事
+mindfulness マインドフルネス 瞑想
+mini 小型
+minimize 最小化
+ministry 省庁 官公庁
+minor 未成年
+minus マイナス 引く
+mirror ミラー 鏡
+missed 不在着信
+missing 不足 行方不明
+mist 霧
+mix 混合 ミックス
+mixture 混合
+mobile スマホ 携帯 モバイル
+mode モード
+model モデル
+modeling モデリング
+moderator 司会 モデレーター
+module モジュール
+money お金 金銭 現金 通貨 費用
+monitor モニター 画面
+monitoring 監視 モニタリング
+monochrome モノクロ 白黒
+monorail モノレール
+month 月 カレンダー
+mood 気分
+moon 月 夜
+mop モップ
+moped 原付 スクーター
+more もっと その他 三点
+mosaic モザイク
+mosque モスク
+motion 動き モーション
+motorcycle バイク オートバイ
+motorsports モータースポーツ
+mount 取り付け
+mountain 山
+mouse マウス
+move 移動
+moved 移動済み
+movie 映画 動画
+movies 映画
+moving 移動 引っ越し
+multi 複数
+multicooker 調理器
+multiline 複数行
+multimodal マルチモーダル
+multiple 複数
+museum 博物館 美術館
+music 音楽 音符
+mute ミュート 消音
+my マイ 自分
+mystery 謎 ミステリー
+narrow 狭い
+nature 自然
+navigation ナビ 案内 経路
+near 近く
+nearby 近く 周辺
+nephrology 腎臓
+nest 巣 Nest
+network ネットワーク 通信
+neurology 神経
+neutral 中立 普通
+new 新しい 新規 NEW
+news ニュース 新聞
+newspaper 新聞
+newsstand 売店 新聞
+next 次 次へ
+nfc NFC 非接触
+night 夜
+nightlife 夜遊び ナイトライフ
+nightlight 常夜灯
+no なし 禁止
+noise 騒音 ノイズ
+none なし
+nordic ノルディック
+normal 通常
+north 北
+not 否定
+note メモ ノート
+notes メモ ノート
+notification 通知 ベル
+notifications 通知 ベル
+number 数字 番号
+numbered 番号付き
+numbers 数字
+nutrition 栄養
+object 物体 オブジェクト
+objects オブジェクト
+occupied 使用中
+of の
+off オフ 無効
+office オフィス 事務所 会社 ビル
+offline オフライン
+oil 油 石油 オイル
+okonomiyaki お好み焼き
+on オン 有効
+oncology 腫瘍 がん
+one 一つ
+online オンライン
+onscreen 画面上
+onsen 温泉
+opacity 不透明度
+open 開く 開ける
+ophthalmology 眼科
+option オプション 選択肢
+options オプション
+or または
+oral 口腔
+orbit 軌道
+order 注文 順序
+orders 注文
+origin 原点
+orthopedics 整形外科
+other その他
+out 外
+outage 停止 障害
+outbound 送出
+outbox 送信箱 送信トレイ
+outdoor 屋外 アウトドア
+outdoors 屋外
+outer 外側
+outgoing 発信
+outlet コンセント
+outline 輪郭 アウトライン
+outpatient 外来
+output 出力
+outward 外向き
+oven オーブン
+over 上
+overflow はみ出し
+overview 概要
+owl フクロウ
+own 所有
+oxygen 酸素
+pace ペース
+pacemaker ペースメーカー
+package 荷物 パッケージ 小包
+padding 余白
+paid 支払い済み 有料
+paint 塗る ペンキ
+palette パレット 色
+pallet パレット 物流
+pan パン 移動
+panel パネル
+panels パネル
+panorama パノラマ
+paragliding パラグライダー
+paragraph 段落
+parent 親
+park 公園
+parking 駐車場 パーキング
+partial 一部
+partly 一部
+partner パートナー 協力
+party パーティー 祝賀
+passkey パスキー
+passport パスポート
+password パスワード
+paste 貼り付け
+path 経路 道
+patient 患者
+pattern 模様 パターン
+pause 一時停止
+paused 一時停止
+pawn ポーン チェス
+pay 支払い 決済
+payment 支払い 決済
+payments 支払い 決済
+pdf PDF
+pedal ペダル
+pediatrics 小児科
+pen ペン
+pencil 鉛筆 編集
+pending 保留 処理中
+pentagon 五角形
+people 人々 人 グループ チーム
+percent パーセント 割合
+percentage パーセント 割合
+pergola パーゴラ
+person 人 人物 ユーザー 個人
+personal 個人
+pest 害虫
+pet ペット
+pets ペット 動物 足跡
+pharmacy 薬局
+phishing フィッシング詐欺
+phone 電話 スマホ 携帯
+photo 写真 画像
+photography 写真撮影
+photos 写真
+physical 物理 身体
+piano ピアノ
+pickleball ピックルボール
+pickup 受け取り
+picture 画像 写真
+pie 円グラフ パイ
+pill 錠剤 薬
+pin ピン 固定 地図
+pinboard 掲示板
+pinch ピンチ
+ping ピン
+pip 小窓
+pivot ピボット
+pizza ピザ
+place 場所
+places 場所
+plagiarism 盗用
+plan 計画 プラン
+plane 飛行機
+planet 惑星
+planner 手帳 計画
+plant 植物 工場
+platform プラットフォーム
+play 再生 プレイ
+playground 遊び場 公園
+playing 再生中
+playlist プレイリスト
+pliers ペンチ
+plot プロット 図
+plug プラグ 電源
+plumbing 配管 水道
+plus プラス 追加
+png PNG
+podcasts ポッドキャスト
+podium 表彰台 演台
+point 点 ポイント
+pointer ポインター
+poker ポーカー
+police 警察
+policy ポリシー 方針 規約
+polyline 折れ線
+pool プール
+portable 携帯
+portal ポータル
+portrait 縦向き 肖像
+position 位置
+post 投稿
+potted 鉢植え
+pound ポンド
+power 電源 電力 パワー
+prayer 祈り
+precision 精度
+prediction 予測
+preferences 設定
+pregnancy 妊娠
+pregnant 妊婦 妊娠
+premium プレミアム
+prescriptions 処方箋
+present 発表 プレゼント
+presentation プレゼン 発表 スライド
+press 押す 報道
+pressure 圧力 血圧
+prevention 予防
+preview プレビュー
+previous 前 前へ
+price 価格 値段 料金
+print 印刷 プリンター
+prints 印刷
+priority 優先度
+privacy プライバシー
+private 非公開 個人
+pro プロ
+problem 問題 課題
+procedure 手順 処置
+process プロセス 工程
+product 製品 商品
+production 生産
+productivity 生産性
+profile プロフィール
+program プログラム
+progress 進捗 進行
+prompt プロンプト
+propane プロパン
+protect 保護
+protected 保護
+proxy プロキシ
+psychiatry 精神科
+psychology 心理 心理学
+public 公開 公共
+publish 公開 投稿
+published 公開済み
+pulmonology 呼吸器
+pulse 脈拍 鼓動
+pump ポンプ
+punch パンチ
+purifier 清浄機
+push プッシュ 押す
+qr QRコード
+quality 品質
+quantity 数量
+queen クイーン 女王
+query 問い合わせ 検索
+question 質問 はてな 疑問
+queue キュー 列 待ち行列
+quick クイック 素早い
+quickreply クイック返信
+quilt キルト
+quiz クイズ
+quote 引用
+radar レーダー
+radio ラジオ 無線
+radiology 放射線科
+railway 鉄道 電車
+rainy 雨
+raised 挙手
+ramen ラーメン
+ramp スロープ
+range 範囲
+rate 率 評価
+rating 評価 星
+ratio 比率
+raw 生
+reaction 反応
+read 既読 読む
+reader リーダー
+readiness 準備
+ready 準備完了
+real 実際
+rear 後ろ
+receipt 領収書 レシート
+received 受信
+receiver 受話器
+recent 最近
+recenter 中央へ
+recirculate 循環
+recline リクライニング
+recommend おすすめ 推奨
+record 記録 録画 録音
+recording 録画 録音
+rectangle 長方形 四角
+recycling リサイクル 循環
+redeem 引き換え
+redo やり直し
+reduce 減らす 削減
+reduced 削減
+reference 参照
+refresh 更新 リロード
+region 地域
+registration 登録
+regular 通常
+relax くつろぎ リラックス
+release リリース 公開
+reload 再読み込み 更新
+remember 記憶
+reminder リマインダー 通知
+remote リモート 遠隔 リモコン
+remove 削除 除去 マイナス
+rename 名前変更
+rental レンタル
+reopen 再び開く
+reorder 並べ替え
+repair 修理
+repeat 繰り返し リピート
+replace 置換 交換
+replay 再生
+reply 返信
+report 報告 レポート 通報
+reports レポート 報告書
+request 依頼 リクエスト
+research 研究 調査
+reset リセット
+resize サイズ変更
+respiratory 呼吸
+responsive レスポンシブ
+rest 休憩
+restart 再起動
+restaurant レストラン 飲食店 食事
+resting 休憩
+restore 復元
+restroom トイレ 化粧室
+resume 再開
+retouching 修正 レタッチ
+return 戻る 返品
+returned 返却
+review レビュー 評価 確認
+reviews レビュー 口コミ
+rewarded 報酬
+rewind 巻き戻し
+rheumatology リウマチ
+ribbon リボン
+rice ご飯 米
+rickshaw 人力車
+right 右
+ring 指輪 リング 鳴る
+ripples 波紋
+road 道路 道
+robot ロボット AI
+rocket ロケット 打ち上げ
+rodent ネズミ
+roll 巻く
+roller ローラー
+roofing 屋根
+rook ルーク チェス
+room 部屋
+rooms 部屋
+rose バラ
+rotate 回転
+rotation 回転
+roundabout ロータリー
+rounded 丸い
+route 経路 ルート
+router ルーター
+routine ルーティン 日課
+row 行
+rowing ボート
+rows 行
+rss RSS
+rsvp 出欠
+rtl 右から左
+ruble ルーブル
+rubric 評価基準
+rugby ラグビー
+rule 定規 ルール 規則
+run 実行 走る
+running 走る ランニング
+rupee ルピー
+rv キャンピングカー
+sad 悲しい
+safety 安全
+sailing ヨット 航海
+sale セール 販売
+salinity 塩分
+sanitizer 消毒
+satellite 衛星
+satisfied 満足
+saturation 彩度
+sauna サウナ
+save 保存
+saved 保存済み
+saver 節約
+saving 保存中
+savings 貯金 貯蓄 節約
+scale 規模 拡大縮小 体重計
+scan スキャン
+scanner スキャナー
+scatter 散布図
+scene 場面 シーン
+schedule スケジュール 予定 時計
+schema スキーマ
+school 学校 教育
+science 科学
+scooter スクーター
+score 得点 スコア
+scoreboard 得点板
+screen 画面 スクリーン
+screensaver スクリーンセーバー
+screenshot スクリーンショット
+screentime 利用時間
+script スクリプト 台本
+scuba スキューバ
+sd SDカード
+search 検索 虫眼鏡 探す
+seasonal 季節
+seat 座席 席
+seating 座席
+secure 安全
+security セキュリティ 安全 盾 防犯
+see 見る
+segment 区分
+select 選択
+selection 選択
+self 自分
+sell 販売 売る
+send 送信 送る 紙飛行機
+sensor センサー
+sensors センサー
+sentiment 感情
+serif セリフ体
+server サーバー
+service サービス
+services サービス
+set セット
+setting 設定
+settings 設定 歯車
+setup セットアップ
+severe 深刻
+shade 日陰
+shadow 影
+shake 振る
+shape 形 図形
+shapes 図形
+share 共有 シェア
+shared 共有
+sharp 鋭い
+sheets スプレッドシート 表
+shelf 棚
+shelter 避難所
+shelves 棚
+shield 盾 保護 セキュリティ
+shift シフト
+shine 輝き
+shipping 配送 出荷 発送
+shoe 靴
+shop 店 ショップ 買い物
+shopping 買い物 ショッピング
+short 短い
+shortcut ショートカット
+show 表示
+shower シャワー
+shuffle シャッフル
+shutter シャッター
+shuttle シャトル
+sick 病気
+side 横 側面
+sidebar サイドバー
+sign 看板 標識 署名
+signal 信号 電波
+signature 署名 サイン
+signin サインイン
+signpost 道標 標識
+signs 標識
+silence 静か
+sim SIMカード
+simulation シミュレーション
+single 一つ 単一
+siren サイレン 警報
+size サイズ 大きさ
+skateboarding スケートボード
+skating スケート
+skeleton 骨格
+skiing スキー
+skillet フライパン
+skip スキップ
+skull 頭蓋骨 ドクロ
+slide スライド
+sliders スライダー 調整
+slideshow スライドショー
+sliding 引き戸
+slight わずか
+slow 遅い
+small 小さい
+smart スマート
+smile 笑顔
+smoke 煙
+smoking 喫煙 たばこ
+sms SMS メッセージ
+snail カタツムリ
+snapshot スナップショット
+snippet 断片
+snooze スヌーズ
+snow 雪
+snowboarding スノーボード
+snowflake 雪の結晶
+snowing 降雪
+snowmobile スノーモービル
+snowy 雪
+soap 石鹸
+soba そば
+soccer サッカー
+social ソーシャル 社会
+solar 太陽光
+solo ソロ 一人
+sort 並べ替え ソート
+sos SOS 緊急
+sound 音 サウンド
+soundbar スピーカー
+soup スープ
+source ソース 出典
+south 南
+spa スパ 温泉
+space 空間 宇宙
+spacing 間隔
+spanish スペイン語
+spatial 空間
+speak 話す
+speaker スピーカー 話者
+special 特別
+specific 特定
+specimen 標本 検体
+speech 発話 音声
+speed 速度 スピード
+spellcheck スペルチェック
+split 分割
+splitscreen 画面分割
+spoke スポーク
+spoon スプーン
+sports スポーツ
+sprinkler スプリンクラー
+sprint スプリント
+sql SQL
+square 四角 正方形
+squiggle 波線
+stack 積み重ね
+stacked 積み上げ
+stacks 積み重ね
+stadium スタジアム 競技場
+stairs 階段
+stand スタンド
+standard 標準
+standby 待機
+star 星 スター お気に入り
+stars 星 評価
+start 開始 スタート
+started 開始
+stat 統計
+station 駅 ステーション
+stats 統計
+status 状態 ステータス
+steam 蒸気
+steering 舵 ハンドル
+step 段階 ステップ
+steppers ステップ
+steps 歩数 段階
+stethoscope 聴診器 医療 診察
+stick 棒
+sticker ステッカー シール
+stickers ステッカー
+sticky 付箋
+stock 在庫 株
+stockpot 鍋
+stop 停止 止める
+stops 停留所
+storage 保存 ストレージ 倉庫
+store 店 ストア 店舗
+storefront 店舗 店頭
+stories ストーリー
+storm 嵐
+straight 直線 まっすぐ
+straighten まっすぐ
+strategy 戦略
+stream 配信 ストリーム
+streetview ストリートビュー
+stress ストレス
+stressed ストレス
+stretch ストレッチ
+strikethrough 取り消し線
+stroke 線
+stroller ベビーカー
+strong 強い
+style スタイル
+styler スタイラー
+stylus スタイラスペン
+subdirectory サブフォルダ
+subheader 小見出し
+subject 件名 主題
+subscript 下付き
+subscriptions 定期購読 サブスク
+subtitles 字幕
+subway 地下鉄
+subwoofer スピーカー
+suggestion 提案
+suite スイート
+summarize 要約
+sunblock 日焼け止め
+sunny 晴れ 太陽
+superscript 上付き
+supervised 監督
+supervisor 監督者 上司
+supplies 用品 備品
+support サポート 支援 ヘルプ
+surfing サーフィン
+surgical 外科 手術
+surround 周囲
+swap 入れ替え 交換
+sweep 掃く
+swipe スワイプ
+switch 切り替え スイッチ
+switches 切り替え
+sword 剣
+swords 剣
+symbol 記号 シンボル
+symbols 記号
+symptoms 症状
+synagogue シナゴーグ
+sync 同期
+syringe 注射器 注射 ワクチン
+system システム
+tab タブ
+table 表 テーブル
+tablet タブレット
+tabs タブ
+tactic 戦術
+tag タグ ラベル
+takeoff 離陸
+takeout テイクアウト 持ち帰り
+talk 話す 会話
+tamper 改ざん
+tank タンク
+tap タップ
+tapas タパス
+tape テープ
+target 目標 ターゲット 的
+task タスク 課題 作業
+tatami 畳 和室
+taunt 挑発
+taxi タクシー
+team チーム 人々
+tech テクノロジー
+temp 温度
+template テンプレート ひな形
+temple 寺院
+tennis テニス
+terminal ターミナル
+text テキスト 文字 文章
+texture 質感
+the
+theater 劇場 映画館
+theaters 劇場 映画館
+theft 盗難
+therapy 療法 治療
+thermometer 温度計 体温計
+thermostat 温度調節
+things もの
+thread スレッド
+threat 脅威
+thumb 親指
+thumbnail サムネイル
+thumbs 親指 いいね
+thunderstorm 雷雨
+ticket チケット 券
+tile タイル
+tilt 傾き
+time 時間 時刻 時計
+timelapse タイムラプス
+timeline タイムライン 年表
+timer タイマー
+tip ヒント
+tire タイヤ
+title タイトル 題名
+toast トースト
+toc 目次
+today 今日
+toggle 切り替え トグル
+token トークン
+toll 料金所
+tonality 色調
+tool 道具 ツール 工具
+toolbar ツールバー
+toolbox 工具箱
+tools ツール 道具 工具
+tooltip ツールチップ
+top 上 上部 トップ
+topic 話題 トピック
+tornado 竜巻
+total 合計
+touch タッチ
+touchpad タッチパッド
+tour ツアー 観光
+tower 塔 タワー
+towing レッカー
+toy おもちゃ
+toys おもちゃ
+track 追跡 トラック
+tracker 追跡
+tracking 追跡
+trackpad トラックパッド
+traffic 交通 信号
+trail 小道
+train 電車 列車 鉄道
+training 研修 トレーニング
+tram 路面電車
+transfer 転送 移動 振込
+transform 変形
+transgender トランスジェンダー
+transit 交通 乗り換え
+transition 遷移 移行
+transitions 遷移
+translate 翻訳
+transmission 送信
+transportation 交通 輸送
+trash ゴミ箱 削除
+travel 旅行 移動
+tree 木 樹木 階層
+trending 上昇 トレンド 成長
+triangle 三角形
+trigger 引き金
+trip 旅行
+triple 三重
+trips 旅行
+trolley 台車
+trophy トロフィー 優勝 表彰
+troubleshoot トラブル対応
+truck トラック 配送
+true 真
+tsunami 津波
+tsv TSV
+tub 浴槽
+tune 調整
+turn 曲がる 回転
+turned 回転
+tv テレビ
+twilight 夕暮れ
+two 二つ
+type 種類 入力
+typography 文字組
+udon うどん
+ugc 投稿
+uk イギリス
+umbrella 傘 雨
+unarchive アーカイブ解除
+unchecked 未チェック
+underlined 下線
+undo 元に戻す
+unfold 展開
+ungroup グループ解除
+unit 単位
+universal ユニバーサル
+unknown 不明
+unlock 解錠 ロック解除
+unpaved 未舗装
+unpublished 未公開
+unread 未読
+unselected 未選択
+unsubscribe 購読解除
+up 上 上向き
+upcoming 今後
+update 更新
+updated 更新済み
+updates 更新
+upgrade アップグレード
+upload アップロード
+uppercase 大文字
+upward 上向き
+urgent 緊急
+urology 泌尿器
+us アメリカ
+usage 使用量
+usb USB
+used 使用済み
+user ユーザー 人 利用者
+vaccines ワクチン 注射
+vacuum 掃除機
+valet 係員
+valve バルブ
+vape 電子たばこ
+vaping 電子たばこ
+variable 変数
+variables 変数
+vent 換気
+ventilator 人工呼吸器
+verification 確認 検証
+verified 認証済み 確認済み
+vert 縦
+vertical 縦 垂直
+very とても
+vibrate 振動
+vibration 振動
+video 動画 ビデオ 映像
+videocam ビデオカメラ
+videogame ゲーム
+view 表示 ビュー
+vignette 周辺減光
+villa 別荘
+village 村
+vintage ヴィンテージ
+visibility 表示 目
+visible 表示
+visitor 訪問者 来客
+visualizer 可視化
+vital バイタル
+voice 音声 声
+voicemail 留守番電話
+volcano 火山
+volleyball バレーボール
+volume 音量
+volunteer ボランティア
+vote 投票
+voting 投票
+vpn VPN
+wake 起床
+walk 歩く 徒歩
+walker 歩行器
+walking 歩く 徒歩
+wall 壁
+wallet 財布
+wallpaper 壁紙
+wand 杖 魔法
+ward 病棟
+warehouse 倉庫 物流
+warm 暖かい
+warning 警告 注意 三角
+wash 洗う
+washoku 和食
+watch 腕時計 時計
+water 水
+waterfall 滝
+watermark 透かし
+waves 波
+waving 手を振る
+wc トイレ
+weak 弱い
+wearables ウェアラブル
+weather 天気
+web ウェブ
+webhook Webhook
+week 週
+weekend 週末
+weight 重さ 体重
+wellbeing ウェルビーイング 健康
+west 西
+whatshot 人気 炎
+wheat 小麦
+wheel 車輪
+wheelchair 車椅子
+wheeler 車輪
+where 場所
+white 白
+wide 広い
+wider 広い
+widget ウィジェット
+widgets ウィジェット
+width 幅
+wifi WiFi 無線
+wind 風
+window 窓 ウィンドウ
+windows 窓
+windshield フロントガラス
+wine ワイン
+wire 配線
+wired 有線
+with 付き
+without なし
+woman 女性
+word 単語 文字
+work 仕事 作業
+workload 作業量
+workspace 作業場
+workspaces 作業場
+worried 心配
+wounds 傷
+wrap 折り返し
+wrench レンチ 工具 修理
+wrist 手首
+wrong 誤り
+xml XML
+yakitori 焼き鳥
+yard 庭
+yen 円 日本円 お金
+you あなた
+your あなたの
+youtube YouTube 動画
+yuan 元 人民元
+zero ゼロ
+zip 圧縮
+zone ゾーン 区域
+zoom ズーム 拡大

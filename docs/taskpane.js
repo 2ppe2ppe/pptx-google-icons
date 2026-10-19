@@ -45,28 +45,87 @@
     return `${BASE}${state.style}/${name}/${variant()}/${px}px.svg`;
   }
 
+  // ---------- 日本語 → 英単語 ----------
+  // カタカナはひらがなに寄せて比べる（「ほーむ」でも「ホーム」に当たる）
+  function kana(s) {
+    return s.replace(/[ァ-ヶ]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0x60));
+  }
+  function loadJa(dict) {
+    state.ja = Object.keys(dict).map((k) => [kana(k.toLowerCase()), dict[k]]);
+    state.jaExact = new Map(state.ja);
+  }
+  // 日本語の検索語を「英単語のまとまり」の並びに変える。まとまりごとに AND で探す
+  function jaGroups(token) {
+    const t = kana(token);
+    if (state.jaExact.has(t)) return [state.jaExact.get(t)];
+    // 入力途中の語（「矢」→「矢印」）は前方一致・部分一致で拾う
+    const partial = new Set();
+    for (const [g, ws] of state.ja) if (g.includes(t)) ws.forEach((w) => partial.add(w));
+    if (partial.size) return [Array.from(partial)];
+    // 「赤い矢印」「上矢印」のような続け書きは、知っている語を左から長い順に切り出す
+    const groups = [];
+    let i = 0;
+    while (i < t.length) {
+      let best = null;
+      for (const [g, ws] of state.ja) {
+        if ((!best || g.length > best[0].length) && t.startsWith(g, i)) best = [g, ws];
+      }
+      if (best) { groups.push(best[1]); i += best[0].length; } else i++;
+    }
+    return groups;
+  }
+  function isAscii(s) {
+    return /^[\x00-\x7f]+$/.test(s);
+  }
+
   // ---------- 検索 ----------
+  // 英単語のまとまりに対するスコア（0 は不一致）
+  function scoreWords(words, label, nameWords, tags) {
+    let best = 0;
+    for (const w of words) {
+      if (label === w) return 1000;
+      if (nameWords.includes(w)) best = Math.max(best, 500);
+      else if (label.includes(w)) best = Math.max(best, 200);
+      else if (tags.includes(" " + w + " ")) best = Math.max(best, 50);
+    }
+    return best;
+  }
+
   function search() {
     const q = $("q").value.trim().toLowerCase().replace(/_/g, " ");
     const cat = $("cat").value;
-    const tokens = q ? q.split(/\s+/) : [];
+    // 各検索語を、英語ならそのまま、日本語なら英単語のまとまりに変える
+    const tokens = [];
+    let unknownJa = false;
+    for (const t of q ? q.split(/\s+/) : []) {
+      if (isAscii(t)) { tokens.push({ en: t }); continue; }
+      const groups = state.ja ? jaGroups(t) : [];
+      if (!groups.length) unknownJa = true;
+      groups.forEach((g) => tokens.push({ words: g }));
+    }
     const out = [];
     for (const ic of state.icons) {
       const [name, ci, pop, tags] = ic;
       if (cat !== "" && String(ci) !== cat) continue;
+      if (unknownJa) break;
       if (!tokens.length) {
         out.push([pop, ic]);
         continue;
       }
       const label = name.replace(/_/g, " ");
+      const nameWords = name.split("_");
+      const paddedTags = " " + tags + " ";
       let score = 0;
       let ok = true;
       for (const t of tokens) {
-        if (label === t) score += 1000;
-        else if (label.startsWith(t)) score += 500;
-        else if (label.includes(t)) score += 200;
-        else if (tags.includes(t)) score += 50;
-        else { ok = false; break; }
+        let s = 0;
+        if (t.words) s = scoreWords(t.words, label, nameWords, paddedTags);
+        else if (label === t.en) s = 1000;
+        else if (label.startsWith(t.en)) s = 500;
+        else if (label.includes(t.en)) s = 200;
+        else if (tags.includes(t.en)) s = 50;
+        if (!s) { ok = false; break; }
+        score += s;
       }
       if (ok) out.push([score * 100000 + pop, ic]);
     }
@@ -293,6 +352,9 @@
     renderSwatches();
     renderRecent();
     wire();
+    try {
+      loadJa(await (await fetch("data/ja.json?v=1")).json());
+    } catch (e) { /* 日本語辞書が無くても英語で検索できる */ }
     try {
       const data = await (await fetch("data/icons.json")).json();
       state.icons = data.icons;
