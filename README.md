@@ -41,6 +41,8 @@ PowerPoint を再起動し、「挿入」タブの「Google Icons」、または
 - Mac では Auto_Open が動かないため、リボンの onLoad で動かしている（ボタンは付けていない）
 - 作り直し: PowerPoint で `ppam/GoogleIconsLoader.bas` を標準モジュールに貼って .pptm で保存 → PowerPoint を終了 → `python3 ppam/make_ppam.py ~/Desktop/App/GoogleIcons.pptm ~/Desktop/App/GoogleIcons.ppam`（Mac の PowerPoint は .ppam で保存できないため変換する）
 - 起動用ファイルを作り直したら、上のコピーも置き換える
+- 待ち時間などは同じフォルダの `GoogleIconsLoader.txt`（delay=開くまでの秒数、wait=開いておく秒数、window=1表示/0非表示）。PC再起動直後は会社のアドイン情報の取り直しで遅く、4秒では間に合わなかった
+- 起動のたびの記録は同じフォルダの `GoogleIconsLoader.log`
 
 ## 使い方
 
