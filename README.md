@@ -45,6 +45,10 @@ PowerPoint を再起動し、「挿入」タブの「Google Icons」、または
 - 起動のたびの記録は同じフォルダの `GoogleIconsLoader.log`
 - 起動直後のスタート画面ではファイルを開けず1回目はエラーになる（記録に error が残るが正常）。プレゼンテーションを開いたときの2回目で読み込まれる
 
+## 他の人への配布
+
+`python3 share/make_share.py` で `dist/GoogleIcons-PowerPoint-Mac.zip` を作って渡す（中身は install.sh・導入手順.md・マニフェスト・起動用ファイル・設定・ppam）。ppam は `~/Desktop/App/GoogleIcons.ppam` を作成者名を消して同梱する。受け取った人は install.sh を実行し、ppam を PowerPoint で登録するだけ（VBA の貼り付けは不要）。手順は `share/導入手順.md`。
+
 ## 使い方
 
 - 検索は日本語・英語どちらでも（矢印、家、グラフ、chart など）。複数語は AND。「上矢印」のような続け書きも分けて探す
